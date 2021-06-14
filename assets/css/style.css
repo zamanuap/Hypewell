@@ -1,0 +1,157 @@
+@font-face {
+    font-family: hk_novamedium;
+    src: url('./../font/HKNova-Medium.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+   font-family: hk_novamedium;
+   box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.container-color{
+	background-color: #54595F; 
+	color: #D0D0D0;
+	padding-top: 30px;
+}
+.header{
+	background-color: #2C2F34;
+}
+.screenshot-results-section{
+	padding-top: 50px;
+}
+a{
+    text-decoration: none;
+	color: #EDEDED;
+	
+}
+a:hover {
+    color:#93C23D;
+    text-decoration:none;
+    cursor:pointer;
+}
+.ul-head {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.li-head{
+display: inline;
+padding: 0 10px;
+}
+.nav-container{
+	margin: auto;
+	width: 60%;
+	padding-top: 20px;
+}
+.head-button-div{
+	padding-top: 20px;
+}
+.head-button{
+	padding: 5px 15px;
+	background-color: #93C23D;
+	font-weight: bold;
+	border: 0;
+	border-radius: 3px;
+}
+.head-button:hover {
+	background-color: #f7f7f7;
+	color: #93C23D;
+}
+.roas-title {
+  background-color:#3B5998;
+  box-shadow:-7px 7px #73bbeb; 
+  margin: 25px 10px;
+}
+.roas-para{
+	padding: 15px 0;
+	font-size: 1.15rem;
+}
+li,label{
+	font-size: 1.15rem;
+}
+.roas-calculate-btn{
+	background-color: #93C23D;
+	padding: 15px 25px;
+	border: 0;
+	border-radius: 3px;
+}
+.roas-calculate-btn:hover{
+	background-color: white;
+	color: #93C23D;
+	
+}
+.screenshot-results-div{
+	background-color: #2C2F34;
+	padding-top: 15px;
+	
+}
+.screenshot-results-img{
+	width: 100%;
+	
+	object-fit: contain;
+}
+.industry-select-div{
+	border: 1px solid white;
+	border-radius: 5px;
+	margin: 20px 0;
+	padding: 15px;
+}
+.industry-select-div:hover {
+	border: 3px solid #93C23D;
+	margin: 18px 0;
+	cursor: pointer;
+}
+.industry-select-div:hover > label {
+	color: #93C23D;
+}
+.industry-select-div-onclick{
+	border: 3px solid #93C23D;
+	margin: 18px 0;
+}
+.industry-select-div-onclick > label{
+	color: #93C23D;
+}
+.span-toggle:hover {
+	color: #93C23D;
+	cursor: pointer;
+}
+.my-tooltip {
+  position: relative;
+}
+
+.my-tooltip .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 130%;
+}
+
+.my-tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 9%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.my-tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.radio-btn-color {
+	color: #93C23D;
+}
